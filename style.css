@@ -1,6 +1,8 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Sarabun:wght@400;500&display=swap');
 
+/* ------------------------------------------GENERAL------------------------------------------- */
+
 :root {
     --primary-color: #FF9AA2;
     /* Soft red */
@@ -11,17 +13,14 @@
     --text-color: #333333;
     /* Dark gray */
 }
+
 h1 {
     font-size: 70px;
     font-family: 'Moirai One', cursive;
 }
-figure{
-    margin-left: 0;
-    margin-right: 0;
-}
 
 header {
-    
+
     margin: 0;
     color: white;
     width: 100%;
@@ -41,25 +40,12 @@ body {
 
 }
 
-.image-gallery {
-    width: 30%;
-
-}
 
 main {
     background-color: #ffe1e2;
     width: 800px;
     margin: auto;
     padding: 16px;
-}
-
-.home-img {
-    width: 100%;
-}
-
-.home-video {
-    width: 800px;
-    height: 450px;
 }
 
 footer {
@@ -70,12 +56,8 @@ footer {
 
 }
 
-.dolcezza{
-    text-align: centers;
-}
-
 nav {
-  
+
     background-color: #ff9aa2d3;
     padding: 20px;
     text-align: center;
@@ -91,9 +73,9 @@ nav a {
     position: relative;
 }
 
-/* animazione */
+/* animazione NAV */
 
-/* nav a::before {
+nav a::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -112,4 +94,29 @@ nav a:hover::before {
 
 nav a.active::before {
     transform: scaleX(1);
-} */
+}
+
+/* ------------------------------------HOME PAGE---------------------------------------------- */
+
+.image-gallery {
+    width: 30%;
+
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.home-img {
+    width: 100%;
+}
+
+.home-video {
+    width: 800px;
+    height: 450px;
+}
+
+.dolcezza {
+    text-align: centers;
+}
